@@ -1,4 +1,4 @@
-# Estudos/DIO/Engenharia de software
+# Estudos/DIO/Engenharia de software :man_student:
 
  - Algoritmo e lógica de programação
  - Programação Orientada a Objetos
