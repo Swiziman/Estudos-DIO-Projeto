@@ -1,4 +1,4 @@
-# Estudos/DIO Projeto/Engenharia de software
+# Estudos/DIO/Engenharia de software
 
  - Algoritmo e lógica de programação
  - Programação Orientada a Objetos
