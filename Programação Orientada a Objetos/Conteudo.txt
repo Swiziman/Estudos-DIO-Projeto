@@ -1,0 +1,12 @@
+1. PARADIGMA DA PROGRAMAÇÃO ORIENTADA A OBJETOS
+A Orientação a Objetos (OO) surgiu de um trabalho acadêmico genial de Keith
+Tocher (1967) que formaliza a teoria da simulação no artigo intitulado The Art of Simulation. Ela foi baseada em modelos matemática e subdivida em três categorias: Discrete Events Simulation, Continuous Simulation e Monte Carlo Simulation. A categoria Discrete Events Simulation trabalha com mudanças de estado, relacionamentos e trocas de informações. Dessa forma, é fácil perceber que onde nossa OO surgiu (NANCE, 1995).
+À medida que os conceitos OO ganharam ampla aceitação durante as décadas
+de 1980 e 1990 surgiram muitas opiniões diferentes sobre as respostas corretas a essas perguntas, mas atualmente há uma visão coerente dos conceitos orientados a objeto. Esta introdução lhe proporcionará uma rápida visão do tópico e apresentará os conceitos básicos e a terminologia. (PRESSMAN, 2011).
+A principal característica do Paradigma Orientado a Objetos (POO) é uma maior e melhor expressividade das necessidades do nosso dia a dia. Possibilitando criar uma unidade de código mais próxima da forma como pensamos e agimos, assim facilitando o processo de transformação das necessidades diárias para uma linguagem orientada a objeto. Assim, Orientação a Objetos é um paradigma de análise, projeto e programação
+de sistemas de softwares baseado na composição e interação entre diversas unidades de software chamadas de objetos.
+Dá-se o nome de Programação Orientado a Objeto ao processo que utiliza uma
+linguagem OO. A sigla POO termina se fundindo entre a programação e o paradigma. A utilização de uma linguagem orientada a objeto somente, em alguns casos, não garante que se está programando efetivamente orientado a objeto. É importante prover um embasamento sobre os fundamentos da OO. Todo o conceito tem como finalidade possibilitar e facilitar a aplicação destes conceitos. O uso correto destes conceitos eleva e facilita o processo de programação. O ponto de partida para a compreensão de OO é compreender o que é objeto e seus aspectos envolvidos em sua criação e sua manipulação (PRESSMAN, 2011).
+No mercado atual de softwares, grande linguagens de programação como Java,
+ASP.NET, CSharp, C++, Python são OO, assim você consegue perceber a importância de estudar e absorver os conceitos de OO. Neste livro iremos discutir o assunto de OO usando como base a linguagem JAVA.
+

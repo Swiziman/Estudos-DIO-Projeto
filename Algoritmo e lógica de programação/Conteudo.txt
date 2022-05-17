@@ -1,0 +1,24 @@
+1 RESOLUÇÃO DE DESAFIOS LÓGICOS
+O ser humano, desde os tempos mais remotos, sempre foi fascinado pelo conhecimento do mundo ao seu redor. Além da curiosidade, o ser humano buscou sempre conhecer o funcionamento do mundo como forma essencial para sua sobrevivência. Os ciclos da natureza, as estações do ano, as  emporadas de colheitas de vegetais e os ciclos de procriação de animais são alguns dos exemplos de conhecimentos adquiridos pelo homem ao longo de milhares de anos e que mostram o quanto o universo é organizado e regular.
+De modo similar, o homem busca sempre soluções por meio da descoberta de
+padrões, também conhecidos como relações de causalidade, para solucionar os problemas que ocorrem cotidianamente em sua existência. Assim, o conhecimento adquirido sob forma empírica, isto é, a partir da  xperimentação prática, aos poucos, foi sendo substituído por um conhecimento mais formalizado, relacionado à descrição de fatos ordenados ou às leis de formação, que convencionamos chamar de leis da natureza.
+Observe que a natureza não está subordinada a nenhuma lei do homem. Lei, aqui, possui o significado de uma obrigatoriedade, observada pelo homem, de um determinado comportamento ou fato acontecer, mediante algumas condições previamente definidas. Trata-se de uma forma de o homem descrever o comportamento da natureza, de forma a prever a sua regularidade. 
+Dizer, por exemplo, que uma das leis da natureza é que “o Sol surgirá no horizonte no começo do dia”, consiste apenas em descrever um comportamento regular do nosso astro-rei. Ele um dia poderá explodir e não nascer mais no horizonte, pouco importando a lei da natureza sobre o seu surgimento.
+Elaboramos constantemente esse entendimento de tudo o que acontece ao nosso redor por meio de um processo de pensamento chamado raciocínio. O uso da razão, ou raciocínio, pode ser descrito de forma livre como a capacidade do ser humano de estabelecer relações de causa e efeito a partir de determinados fatos observados.
+Ao observarmos, por exemplo, que uma goiabeira produz goiabas em abundância somente em uma determinada época do ano — digamos, no mês de março —, usamos a razão para concluir que o mês de março é o mês da colheita de goiabas nas goiabeiras. Logo, caso queiramos comer goiabas, vamos ter que esperar o mês de março chegar.
+Na Grécia Antiga, em torno do ano de 322 a.C., o filósofo Aristóteles se dedicou a estudar e formalizar esse modo de pensamento, promovendo a descrição e formalização do uso da razão, que, em grego, tem o nome de logus, surgindo, então, a lógica, uma área de estudos da Filosofia. Na lógica de Aristóteles, o raciocínio pode ser representado por meio
+de declarações, também chamadas premissas, que descrevem fatos ou conhecimentos de senso comum.
+A representação de modo ordenado e sequencial dessas premissas descreve o
+raciocínio a ser utilizado para resolver um problema ou, ainda, “descobrir a verdade”. Como exemplo, considere o conjunto de premissas abaixo:
+a) Duas pessoas são irmãs entre si quando ambas possuem ao menos um mesmo
+pai ou mãe.
+b) Maria é filha de Pedro.
+c) Beto é filho de Pedro.
+Assumindo que Pedro é o mesmo indivíduo nas premissas 2 e 3, o que podemos
+concluir? Conclui-se que Beto é irmão de Maria ou Maria é irmã de Beto.
+A lógica é também aplicada extensivamente na matemática, em que leis e teoremas
+foram descobertos e formalizados diretamente pelo processo conhecido como demonstração
+de teorema. Considere o exemplo:
+X = A
+Y = A
+Logo, X = Y. 
