@@ -4,3 +4,4 @@
  - Programação Orientada a Objetos
  - Arquitetura de Computadores e Hardware
  - Linux Introdução ao sistema operacional
+ - Git/GitHub
