@@ -1,0 +1,127 @@
+O que é Git?
+
+Git é um sistema de controle de versão open-source, ou seja, gratuito. Ele é utilizado para a criação de um histórico de alterações em código-fonte de projetos de desenvolvimento de software. Foi desenvolvido por Linus Torvalds, o criador do sistema operacional Linux.
+
+Por meio de sua utilização, podemos saber quais foram as alterações realizadas, quem fez cada uma das alterações e baixar essas mudanças em nossa máquina. Se necessário, revertê-las para uma versão anterior.
+O que é GitHub?
+
+O Github é um repositório remoto, criado como um serviço online de hospedagem de repositórios do Git.
+
+Funciona como um servidor que agrega todas as modificações realizadas por cada uma das pessoas envolvidas em um projeto, unificando as diferentes versões de código e seus históricos, permitindo compartilhamento entre as equipes.
+
+Além disso, o GitHub também conta com várias integrações com outros serviços online, permitindo o deploy automático de aplicação. Assim, garante a integração contínua e facilita o desenvolvimento.
+
+Nos últimos anos, o GitHub se tornou a principal rede social para o desenvolvimento de software, sendo que existem vários projetos open source hospedados na plataforma, que aceitam a colaboração de qualquer profissional.
+
+Outro ponto interessante é a sua utilização como currículo. Muitas empresas pedem na entrevista o link do GitHub para verificar seus projetos e entender suas capacidades de programação.
+
+Caso você esteja começando sua carreira na área de TI agora, criar um perfil nessa plataforma pode ajudar a dar visibilidade para o seu trabalho no mercado.
+Porque o Git é importante e principais conceitos?
+
+Você pode não ter percebido o valor que isso tem para qualquer pessoa que desenvolve software, mas vamos mostrar algumas situações em que esse controle de versão pode fazer toda a diferença.
+
+    Trabalho de Equipe: Você trabalha com mais duas pessoas da área de programação em um projeto, fez algumas alterações no código na sua máquina, criando uma funcionalidade para o sistema, e quer compartilhá-la com seus colegas. Como você faria isso?
+    Dados mais seguros Você trabalhou durante duas semanas em uma função nova para o programa e, quando chega ao trabalho, sua máquina sofre uma pane e apaga o disco. Como você recupera seu trabalho?
+    Gestão de mudanças: Você fez algumas alterações no código e elas foram publicadas, porém, o sistema teve um comportamento estranho e acabou apresentando erros. Como você retorna para a versão anterior?
+
+Esses três exemplos demonstram o valor que um controle de versão pode ter quando falamos no desenvolvimento em escala de software. Ele permite a recuperação de versões, códigos e seu compartilhamento de forma simples e segura.
+Os conceitos do Git
+
+São vários conceitos dentro do Git que nos permitem manipular o código-fonte dentro de suas inúmeras versões. Vamos listar os principais deles para que você possa se familiarizar.
+Repositório
+
+O primeiro é o repositório, local físico onde os arquivos e suas cópias ficarão armazenados. O repositório pode ser local ou remoto, podendo salvar não apenas arquivos de texto, mas também imagens, áudios e outros elementos relacionados ao projeto.
+Branch
+
+Branches são os ramos, cópias do código original que podem ser manipuladas de forma livre pela pessoa que trabalha em programação, sem afetar as funcionalidades em produção no código-fonte.
+
+Isso permite que todas as alterações sejam realizadas de forma segura, sem que erros ocorram na cópia principal do projeto.
+Merge
+
+Após a finalização de um trabalho em um Branch, é necessário realizar o Merge, fundir a cópia e seus arquivos modificados com o ramo principal do projeto. Isso acontece apenas no repositório local para que ajustes possam ser feitos.
+Push Request
+
+O Push Request é o envio das modificações após o Merge para o repositório central, para que todas as outras pessoas que atuam no desenvolvimento possam atualizar suas cópias e revisar o código criado, verificando conflitos com seus próprios trabalhos.
+Pull Request
+
+O Pull Request é utilizado quando outra pessoa que atua no desenvolvimento muda o ramo principal no repositório central, puxando as modificações realizadas para a sua máquina, fundindo a nova versão com o seu código local.
+Fork
+
+Trata-se do comando de cópia de um repositório remoto para a máquina local, realizado sempre que vamos começar a trabalhar em um projeto que já existe. Também é usado para pegar um código público para posterior modificação e utilização em um programa interno.
+Como instalar e utilizar o Git
+
+Ok, você já entendeu o conceito de Git e GitHub. Então, vamos por a mão na massa e mostrar na prática como criar um repositório Git e fazer suas primeiras alterações.
+
+O primeiro passo é fazer o download do Git em sua máquina e realizar a instalação da ferramenta. Ele tem uma interface gráfica, além da integração com as principais IDEs do mercado. Porém, vamos fazer tudo em interface de comando.
+
+Após instalar o Git, abra o prompt e utilize o seguinte comando:
+
+git --version
+
+Caso tudo tenha ocorrido conforme o esperado, o Git responderá mostrando a versão instalada em sua máquina.
+
+Agora vamos criar a sua assinatura Git:
+
+git config --global user.name "Seu usuario"
+git config --global user.email "email@example.com"
+
+Pronto! Sempre que você salvar alguma alteração sua assinatura será incluída.
+
+Para utilizar o Git, precisamos de uma pasta de projeto. Então, você pode entrar em seu diretório e criar uma pasta com o nome “ProjetoTeste” e, dentro dela, um arquivo txt com o nome “teste.txt”. Escreva qualquer coisa nele.
+
+No prompt de comando, navegue até dentro da pasta “ProjetoTeste” e dê o seguinte comando para a criação do repositório:
+
+git init
+
+A saída esperada é:
+
+Initialized empty Git repository in C:/Users/SEU_USUARIO/ProjetoTeste/.git/
+
+Já temos o nosso repositório Git, mas ele ainda está vazio, pois não salvamos nenhuma cópia. Você pode verificar isso realizando o seguinte comando:
+
+git status
+
+A resposta em um repositório vazio como esse será:
+
+On branch master
+
+No commits yet
+
+Untracked files:
+ (use "git add <file>..." to include in what will be committed)
+
+teste.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ou seja, estamos no branch master, ramo principal. Não há alterações salvas, existe um arquivo que ainda não tem cópia e não há nada pronto para ser arquivado.
+
+Para realizar a cópia desse novo arquivo, vamos utilizar dois comandos. O primeiro é:
+
+git add teste.txt
+
+Sendo que a saída esperada é:
+
+Changes to be committed:
+ (use "git rm --cached <file>..." to unstage)
+
+new file: teste.txt
+
+Significa que nosso arquivo já está na staged area, pronto para a criação de uma nova versão de código. O segundo comando, para confirmar e salvar essa alteração é:
+
+git commit teste.txt
+
+[master (root-commit) 690845c] Qualquer coisa escrita no arquivo
+ 1 file changed, 1 insertion(+)
+ create mode 100788 teste.txt
+
+Assim, caso utilizemos o comando de Git status novamente para verificar nossos arquivos, nossa resposta será um pouco diferente, já que o repositório não é mais vazio.
+Como criar uma conta no Github?
+
+Para criar sua conta no Github clique aqui.
+
+Coloque com seus dados pessoais como pedido na página de cadastro, escolha entre o plano Gratuito (Free), ou algum dos planos pagos, escolha o que mais se adeque as suas necessidades.
+
+Por fim, preencha suas preferências e finalize o cadastro. Criar uma conta no Github é super simples, se quiser ver o passo a passo com imagem, confira esse tutorial do wikihow.
+
+Agora que você já sabe um pouco mais sobre Git e GitHub, aconselhamos que você explore essa ferramente, porque ela é indispensável para qualquer pessoa que deseje trabalhar com programação de software. Além disso, criar um perfil no GitHub é extremamente indicado nessa área, mesmo para pequenos projetos.

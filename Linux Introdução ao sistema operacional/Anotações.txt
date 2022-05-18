@@ -1,0 +1,348 @@
+
+O que é GNU/Linux
+
+    Home O que é GNU/Linux 
+
+Tux - mascote do Linux
+Tux - mascote do Linux Linux é o núcleo do sistema operacional, programa responsável pelo funcionamento do computador, que faz a comunicação entre hardware (impressora, monitor, mouse, teclado) e software (aplicativos em geral). O conjunto do kernel e demais programas responsáveis por interagir com este é o que denominamos sistema operacional. O kernel é o coração do sistema.
+
+Os principais programas responsáveis por interagir com o kernel foram criados pela fundação GNU. Por este motivo é mais correto nos referenciarmos ao sistema operacional como GNU/Linux ao invés de apenas Linux.
+
+Uma distribuição nada mais é que o conjunto de kernel, programas de sistema e aplicativos reunidos num único CD-ROM (ou qualquer outro tipo de mídia). Hoje em dia temos milhares de aplicativos para a plataforma GNU/Linux, onde cada empresa responsável por uma distro escolhe os aplicativos que nela deverão ser inclusos.
+
+    Linux: kernel e distribuições - Este artigo contém explicações introdutórias sobre o kernel do Linux, o que é e como identificar suas diversas versões, além da "definição" do termo 'distribuição' e suas várias faces. 
+
+
+Kernel
+Como explicar o que é kernel para um leigo? Neste artigo, Jorge Alberto Corso descreve como contornou a complicada tarefa de explicar o que é um kernel para alunos de um curso de administração Linux. Se você não sabe o que é, ou deseja explicar o que é para alguém, não deixe de ler o texto.
+
+O projeto GNU
+
+
+GNU is Not Unix! Muitos conhecem e divulgam o sistema operacional do pinguim apenas como Linux, porém o termo correto é GNU/Linux. Em palavras simplificadas, Linux é apenas o kernel do sistema operacional, ele depende de uma série de ferramentas para funcionar, a começar pelo programa usado para compilar seu código-fonte. Essas ferramentas são providas pelo projeto GNU, criado por Richard Stallman.
+
+Em outras palavras, o sistema operacional tratado neste documento é a união do Linux com as ferramentas GNU, por isso o termo GNU/Linux.
+
+Para entendermos melhor essa relação entre GNU e Linux, Richard Stallman e Linus Torvalds, recomendo a leitura dos seguintes artigos:
+
+    História do GNU/Linux: 1965 assim tudo começou!
+    Fazendo jus ao nome GNU/Linux
+    GNU/Linux: Depois dele o mundo não é mais o mesmo!
+    GNU e Linux: amigos para sempre
+    Hurd - O kernel da GNU 
+
+
+  
+GNU/Linux x Windows
+A diferença mais marcante entre Linux e Windows é o fato do primeiro ser um sistema de código aberto, desenvolvido por programadores voluntários espalhados por toda internet e distribuído sob a licença pública GPL. Enquanto o Windows é software proprietário, não possui código-fonte disponível e você ainda precisa comprar uma licença pra ter o direito de usá-lo.
+
+Você não precisa pagar nada para usar o Linux! Não é crime fazer cópias para instalá-lo em outros computadores. A vantagem de um sistema de código aberto é que ele se torna flexível às necessidades do usuário, tornando assim suas adaptações e "correções" muito mais rápidas. Lembre-se que ao nosso favor temos milhares de programadores espalhados pelo mundo pensando apenas em fazer do Linux um sistema cada vez melhor.
+
+O código-fonte aberto do sistema permite que qualquer pessoa veja como ele funciona, corrija algum problema ou faça alguma sugestão sobre sua melhoria, esse é um dos motivos de seu rápido crescimento, assim como da compatibilidade com novos hardwares, sem falar de sua alta performance e de sua estabilidade.
+
+    O que é Software Livre - Definição dos vários termos encontrados no mundo do Software Livre e Linux, e a definição de suas diversas licenças de uso de maneira simples e organizada e de fácil entendimento.
+    Desmistificando o Software Livre - Conceitos de Software Livre e Linux, o que pode ser utilizado legalmente e utilização em ambientes corporativos e domésticos são alguns dos temas abordados nesse artigo. 
+
+
+Distribuições GNU/Linux
+
+Vux - mascote do Viva o Linux O Linux possui vários sabores e estes são denominados distribuições. Uma distribuição nada mais é que um kernel acrescido de programas escolhidos a dedo pela equipe que a desenvolve. Cada distribuição possui suas particularidades, tais como forma de se instalar um pacote (ou software), interface de instalação do sistema operacional em si, interface gráfica, suporte a hardware. Então resta ao usuário definir que distribuição atende melhor suas necessidades.
+
+    O que são distribuições
+    Afinal qual a melhor distribuição - Essa é talvez a pergunta mais comum entre os iniciantes, confusos diante das inúmeras opções que caracterizam a liberdade de escolha dos usuário do GNU/Linux. Com esse artigo o autor pretende provar que a melhor distribuição é aquela que você se dedica a conhecer bem, apresentando algumas dicas para que você possa fazer da sua distribuição, seja ela qual for, a melhor do mundo.
+    Qual distribuição usar - Este artigo visa trazer ao leitor uma maneira mais correta de se escolher uma distribuição. Há detalhes sobre as distribuições mais utilizadas atualmente e a sugestão de uma metodologia a se seguir para escolha de uma distribuição adequada às necessidades da aplicação.
+    Qual o melhor Linux para eu utilizar - Neste artigo o autor expõe suas considerações sobre escolha de distribuições Linux. Na verdade não existe a melhor distribuição e sim a distribuição que melhor se enquadra como solução para suas necessidades.
+    23 distribuições Linux brasileiras - Aqui no Brasil pouquíssimas tiveram seu reconhecimento, onde podemos citar 2 que realmente ficarão e estão na memória de quem acompanha o crescimento do Linux, que foram a Conectiva (hoje Mandriva) e o Kurumin. Este artigo introduz outras que valem a pena citação. 
+
+
+GNU/Linux e sua interface gráfica
+O sistema X-Window (sim! sem o "s"), também chamado de X, fornece o ambiente gráfico do sistema operacional. Diferentemente do OSX (Macintosh) e Windows, o X torna o gerenciador de janelas (a interface visual em si) um processo separado. Na verdade, a vantagem de separar o gerenciador de janelas é que você pode escolher entre uma variedade de gerenciadores existentes para Linux o que melhor lhe convém, tais como Gnome, KDE, XFCE dentre outros.
+
+    Conceitos sobre o XWindow - Este é um artigo afim de mostrar os conceitos do ambiente X-Window. Abordaremos perguntas simples como o que ele é, quando foi desenvolvido e como ele funciona. 
+
+
+A história do GNU/Linux
+O sistema Linux tem sua origem no Unix, um sistema operacional multitarefa e multiusuário que tem a vantagem de rodar em uma grande variedade de computadores.
+
+O Linux surgiu de forma muito interessante. Tudo começou em 1991, quando um programador finlandês de 21 anos, Linus Benedict Torvalds, enviou a seguinte mensagem para uma lista de discussão na Internet: "Olá para todos que estão usando Minix. Estou fazendo um sistema operacional free (como passatempo) para 386, 486, AT e clones". Minix era um limitado sistema operacional baseado em Unix que rodava em microcomputadores maquiavélicos como o AT. Linus pretendia desenvolver uma versão melhorada do Minix e mal sabia que seu suposto "passatempo" acabaria num sistema engenhosamente magnífico. Muitos acadêmicos conceituados ficaram interessados na idéia do Linus e, a partir daí, programadores das mais variadas partes do mundo passaram a trabalhar em prol desse projeto. Cada melhoria desenvolvida por um programador era distribuída pela Internet e, imediatamente, integrada ao núcleo do Linux.
+
+No decorrer dos anos, este trabalho árduo e voluntário de centenas de sonhadores tornou-se num sistema operacional bem amadurecido e que hoje está explodindo no mercado de servidores corporativos e PCs. Linus, que hoje coordena uma equipe de desenvolvedores do núcleo de seu sistema, foi eleito em pesquisa pública a personalidade do ano de 1998 do mundo da informática.
+
+    O Surgimento do Linux
+    História do GNU Linux: 1965 assim tudo começou
+    Linus Benedict Torvalds 
+
+
+Por onde começo a aprender GNU/Linux
+Se você está iniciando sua vida no Linux, pode sentir a necessidade de ajuda em pontos aparentemente simples. Este artigo será o primeiro de uma série que o ajudará a ficar mais confortável neste maravilhoso ambiente. A série faz uma tradução livre do Linux User's Guide, abordando os temas principais, afim de oferecer a você as principais ferramentas do Linux.
+
+Os demais artigos da série, publicados por Cicero Juliao da Silva Junior:
+
+    Guia Introdutório do Linux - Se você está iniciando sua vida no Linux, pode sentir a necessidade de ajuda em pontos aparentemente simples. Este artigo é o primeiro de uma série que o ajudará a ficar mais confortável neste maravilhoso ambiente. Faremos uma tradução livre do Linux User's Guide, abordando os temas principais, afim de oferecer a você as principais ferramentas.
+    Guia (nem tanto) Introdutório do Linux - Aqui você verá partes do guia que tratam do poder do sistema, como comandos que parecem tão simples quando usados sozinhos, combinados com outros comandos, produzem um sistema poderoso e flexível. Embora os nomes desses comandos Linux não sejam tão intuitivos, veremos como são úteis e sofisticados em seu funcionamento.
+    Guia Introdutório do Linux II - Vamos dissertar sobre os papéis que o Linux pode desempenhar num ambiente empresarial. Finalmente veremos as necessidades de um cliente e como prover os recursos necessários para tornar o Linux efetivo em seu ambiente.
+    Guia Introdutório do Linux III - Este artigo é sobre a preparação da instalação do sistema Linux. Como o próprio título avisa, é introdutório e serve para você que está aprendendo a administrar este maravilhoso sistema operacional. Veremos como você pode fazer escolhas baseado nas necessidades dos seus clientes.
+    Guia introdutório do Linux IV - Agora, com o sistema instalado, destacaremos o que torna o Linux tão fantástico. E então, começaremos o uso do Linux.
+    Guia Introdutório do Linux V - Quando você digita um comando, pode escolher em adicionar características para alterar o comportamento do comando. Opções e argumentos são exemplos do que usar para tal mudança.
+    Guia Introdutório do Linux VI - Seguiremos com o uso de comandos. Desta vez veremos como conectar e expandir comandos, como enviar comandos para o background (também veremos o que é isso, se você ainda não souber) e como usar expressões aritméticas. 
+
+
+Como obter o GNU/Linux
+Uma vez escolhida a distribuição que você utilizará, o próximo passo é fazer o download de uma imagem ISO para gravação e instalação em seu computador. É extremamente recomendável optar por uma distribuição popular, bem testada e na qual você encontrará documentação abundante na internet caso precise de ajuda. A seguir temos uma lista compilada com artigos que lhe auxiliarão na instalação do Linux.
+
+Caso nenhuma das distribuições GNU/Linux abaixo lhe satisfaça, dê uma conferida em nossa lista de sugestões de download.
+
+Ubuntu
+Ubuntu é uma das distribuições Linux mais populares da atualidade e isso se deve ao fato dela se preocupar muito com o usuário final (desktop). Originalmente baseada no Debian, diferencia-se além do foco no desktop, em sua forma de publicação de novas versões, que são lançadas semestralmente.
+
+Para maiores informações, visite o site oficial do Ubuntu Linux ou a comunidade do Ubuntu Linux no Brasil.
+
+Caso deseje instalar e testar este Linux, siga instruções do artigo Instalando o Linux Ubuntu 8.04 Hardy Heron, onde o autor tenta ser simples e objetivo ao guiar o iniciante na instalação do Ubuntu 8.04 (Hardy Heron).
+
+openSUSE
+openSUSE é a versão livre do belíssimo sistema operacional Novell SuSE. Além de se comportar de forma muito estável e robusta como servidor, também é muito poderoso quando o assunto é desktop.
+
+Seu diferencial é o famoso YaST (Yeah Another Setup Tool), um software que centraliza todo o processo de instalação, configuração e personalização do sistema Linux. Podemos dizer que esta é uma das cartas-mestre do SuSE, pois pode se comparar ao painel de controle do Windows.
+
+Sobre o YaST:
+
+YaST talvez seja a mais poderosa ferramenta de gestão do ambiente Linux. É um projeto open source patrocinado pela Novell e ativamente em desenvolvimento.
+
+O desenvolvimento do YaST começou em janeiro de 1995. Ele foi escrito em C++ com um ncurses GUI por Thoamas Fehr (um dos fundadores SuSE) e Michael Andres.
+
+YaST é a ferramenta de instalação e configuração para openSUSE, SUSE Linux Enterprise e o antigo SuSE Linux. Possui uma atraente interface gráfica capaz de personalizar o seu sistema rapidamente durante e após a instalação, podendo também ser utilizada em modo texto.
+
+YaST pode ser usado para configurar o sistema inteiro, como por exemplo configurar periféricos como: placa de vídeo, placas de som, rede, configurar serviços do sistema, firewall, usuários, boot, repositórios, idiomas, instalar e remover softwares etc.
+
+Saiba mais sobre o YaST em: O Centro de Controle YaST
+
+Para maiores informações, visite o site oficial do openSUSE ou a comunidade brasileira openSUSE. Informações detalhadas sobre diferenças entre SuSE, openSUSE e seus componentes podem ser encontradas em: SuSE 9.1 - O poderoso e versátil Linux da Novell.
+
+Caso deseje instalar e testar este Linux, siga instruções do artigo Introdução ao Linux: Instalação do openSUSE, onde o autor mostra como obter e instalar o openSUSE 11 para usuários que estão conhecendo agora o Linux ou que estão querendo migrar para este SO. Com didática clara e simples, até mesmo quem nunca formatou um PC poderá instalar o sistema sem problemas.
+
+Debian
+Debian é uma das distribuições mais antigas e populares. Ela serviu de base para a criação de diversas outras distribuições populares, tais como Ubuntu e Kurumin. Como suas características de maior destaque podemos citar:
+
+    Sistema de empacotamento .deb;
+    Apt-get, que é um sistema de gerenciamento de pacotes instalados mais práticos dentre os existentes (se não o mais!);
+    Sua versão estável é exaustivamente testada, o que o torna ideal para servidor (segurança e estabilidade);
+    Possui um dos maiores repositórios de pacotes dentre as distros (programas pré-compilados disponíveis para se instalar). 
+
+
+Para maiores informações, visite o site oficial do Debian ou a comunidade brasileira Debian.
+
+UPDATE: Recentemente foi publicado um artigo completo sobre a instalação e configuração básica do Debian 6 Squeeze para Desktops, fica aqui a sugestão de leitura: Instalação e configuração básica de um Debian 6 Squeeze para Desktops
+
+Caso deseje instalar e testar este Linux, siga instruções do artigo Instalando o Debian Lenny, onde o autor demonstra ao usuário iniciante como fazer uma instalação básica do sistema Debian GNU/Linux em seu computador. Depois de uma breve leitura no artigo, ficará claro como o mito de que o Debian é uma distro "complicada" vai por água abaixo.
+
+Outro artigo a ser consultado é o Instalando um sistema Debian GNU/Linux completo em 20 minutos, onde o autor foca na instalação de um parque de máquina completo com Linux, focando em dicas de como instalar o Debian de forma automatizada.
+
+Slackware
+Slackware, ao lado de Debian e Red Hat, é uma das distribuições "pai" de todas as outras. Idealizada por Patrick Volkerding, Slack - apelido adotado por sua comunidade de usuários - tem como características principais leveza, simplicidade, estabilidade e segurança.
+
+Embora seja considerada por muitos uma distribuição difícil de se usar, voltada para usuário expert ou hacker, possui um sistema de gerenciamento de pacotes simples, assim como sua interface de instalação, que é uma das poucas que continua em modo-texto, mas nem por isso se faz complicada.
+
+Se você procura por uma distribuição voltada para servidor, deseja aprofundar seus conhecimentos no Linux ou procura um desktop sem frescuras, Slack é pra você!
+
+História do Slackware:
+
+Slackware foi criado por Patrick Volkerding em 1993 (algumas fontes dizem 1992). Foi baseada na distribuição SLS (Softlanding Linux System) e era fornecida em forma de imagens para disquetes de 3.5 polegadas.
+
+É a distribuição mais antiga e ainda ativa. Até 1995 era considerado como o "Linux padrão", mas sua popularidade diminuiu muito depois do surgimento de distribuições mais amigáveis. Mesmo assim o Slackware continua sendo uma distribuição muito apreciada e respeitada, pois não mudou sua filosofia, continua fiel aos padrões UNIX e é composta apenas por aplicações estáveis.
+
+Em 1999 a versão do Slackware pulou de 4.0 para 7.0. Uma jogada de marketing para mostrar que o Slackware estava tão atualizado como as outras distribuições. Acontece que muitas distribuições tinham versões bem elevadas, e isso podia causar a impressão de que o Slackware estava desatualizado. A demora para lançamento de novas versões do Slackware também contribuiu para isso.
+
+Em 2004 Patrick Volkerding esteve seriamente doente - com um tipo de infecção, e o desenvolvimento do Slackware tornou-se incerto.
+
+Muitos acharam que ele iria morrer. Mas ele melhorou e retomou o desenvolvimento do Slackware, embora não esteja completamente curado até hoje.
+
+Em 2005 o ambiente gráfico GNOME foi removido do projeto Slackware, o que desagradou muitos usuários. A justificativa de Patrick foi de que leva-se muito tempo para empacotar os binários. Porém, muitas comunidades desenvolvem projetos de GNOME para o Slackware. Alguns exemplos de projetos são: Gnome Slackbuild, Gnome Slacky e Dropline Gnome. Por isso, Gnome de alta qualidade é o que não falta para o Slackware, apesar de não ser um ambiente nativo.
+
+Em 2007 foi lançada a versão 12.0 do Slackware, uma versão inovadora e que de certa forma causou algumas controvérsias. Foi a primeira versão do Slackware que foi um pouco contra a sua própria filosofia. Primeiro, porque passou a montar dispositivos automaticamente, segundo porque alguns pacotes antigos não eram mais compatíveis coma a nova versão devido ao novo GCC 4.1.2. e por último, porque foi a primeira versão a vir com a última versão do Kernel (na época).
+
+Vale destacar também que a versão 12.0 vem com Compiz instalado, mas que por falta de ferramentas gráficas para configuração, muitos usuários não sabiam como usar.
+
+Enquanto esse artigo está sendo digitado, a versão atual do Slackware é a 12.1. Ela não difere muito da 12.0, basicamente houve várias atualizações de aplicativos e do kernel. A maior novidade agora é que a versão corrente do Slackware tem disponível os pacotes do ambiente gráfico KDE 4.1. Muitos usuários acostumados com o KDE 3.5 não gostaram das modificações, mas uma coisa é certa: o visual do KDE 4.1 é muito mais atraente que o do 3.5.
+
+Leia mais na série de artigos:
+
+    Mamãe, quero Slack! (parte 1) - Esse artigo é um resumo simples e básico de instruções para usuários iniciantes que querem começar a usar a distribuição Slackware, especificamente as versões 12.0 e 12.1.
+    Mamãe, quero Slack! (parte 2) - Resumo de informações para ajudar usuários iniciantes que querem usar a distribuição Slackware. Serve para Slackware 12.0, 12.1 e 12.2.
+    Mamãe, quero Slack! (parte 3) - Esta é a última parte da série "Mamãe, quero Slack!". A série tem por objetivo servir de guia introdutório para iniciantes no sistema, especificamente para a distribuição Slackware. 
+
+
+Para maiores informações, visite o site oficial do Slackware ou a comunidade Slackware do Brasil.
+
+Caso deseje instalar e testar este Linux, siga instruções dos seguintes artigos:
+
+    Instalação do Slackware 11.0 sem medo - Esse artigo pretende quebrar "tabus" sobre a instalação do Slackware, demostrando que esse sistema também pode ser instalado facilmente. Ele se destina a usuários iniciantes no mundo open-source e serve como uma "receita de bolo" para a instalação do Slackware.
+    Instalando o Slackware sem sofrimento (parte 1) - Explica-se como instalar o Slackware enquanto o Patrick não se decide por uma ferramenta gráfica ao melhor estilo Fedora ou Mandriva... ;-) Farei um particionamento simples com o cfdisk; pra que ficar quebrando a cara se os manés aqui já passaram horas ralando o fucinho na frente do PC??? A versão utilizada foi o slackão 11.0.
+    Instalando o Slackware sem sofrimento (parte 2) - Nesta segunda parte do "instalando o Slackware sem sofrimento" vamos configurar nosso Slackão imediatamente após a instalação dos pacotes. Você verá que não vai doer nadica de nada!!! ;-) 
+
+
+Kurumin
+Idealizada por Carlos Morimoto, Kurumin foi uma das distribuições mais usadas em território nacional. Originalmente baseada no Knoppix, que veio do Debian, esse sistema operacional se destacou por ser um desktop fácil de se instalar e agradável de se usar.
+
+Sua característica mais marcante são os ícones mágicos, que transformam tarefas relativamente complexas (hoje nem tanto) como configurar um modem ou instalar um codec de vídeo numa experiência NNF (next, next, finish), como no Windows.
+
+Para maiores informações, visite o site oficial do Kurumin.
+
+Artigos relacionados:
+
+    Instalando o Kurumin 7 e outros em um pendrive - Esse artigo visa ensinar a instalação do Linux Kurumin/Knoppix e com algumas alterações qualquer outra distro liveCD em um pendrive de 1 ou 2 GB. Feito com base em experiência própria, usando como base um artigo de Carlos E. Morimoto.
+    Remasterização do Kurumin 7 final - A versão final do Kurumin 7 não inclui o famoso script de remasterização, porém temos como burlar isso e criar uma versão remasterizada do sistema, para diversos usos, escolas, empresas ou repartições públicas.
+    Remasterizando o Kurumin - Neste artigo demonstra-se como remasterizar o Kurumin em qualquer versão disponível, até mesmo nas versões mais recentes, que não dispõem mais do dispositivo "Remasterizando o Kurumin" no painel de navegação. 
+
+
+Fedora
+"Fedora é uma das mais populares e estáveis distribuições que existem atualmente. Ele era, no começo, um fork para a comunidade, liberado e mantido pela gigante Red Hat que, na época, estava fechando seu sistema e concentrando-se no mercado corporativo. Isso significa que, desde o princípio, o Fedora já contava com o que há de mais moderno em tecnologia de software, assim como também contava com uma das mais competentes e dedicadas equipes em seu desenvolvimento. Se o que você procura é uma distribuição com poderes de ser um servidor estável, mas com as facilidades das ferramentas de configuração gráficas, ou se, simplesmente, deseja um desktop mais robusto, o Fedora será a sua melhor escolha.
+
+Ele conta com um ciclo de desenvolvimento rápido. A cada seis meses, em média, um novo Fedora é liberado pelo Fedora Project para a comunidade. A própria comunidade em si é uma das mais ativas da internet e o Fedora conta com uma farta ajuda online, mesmo sem oferecer o suporte técnico direto da Red Hat.
+
+O manuseio de pacotes é feito de forma inteligente e automática com a ajuda do YUM que cuida das atualizações e resolve as dependências de todos os pacotes, baixando o que for necessário ao sistema dos repositórios e gerenciando a instalação. Encontra-se para o fedora todo o tipo de aplicações, desde suites de escritório poderosas como o OpenOffice.org até players de vídeo e de áudio (MPlayer e Amarok) com execução de quase todos os formatos conhecidos e também uma generosa coleção de jogos, todos instaláveis com alguns simples cliques ou uma única linha de comando. "
+
+Retirado de: fedora.wiki.br - FAQ do Fedora 10
+
+Você pode aprender a instalar o Fedora neste artigo, onde o autor descreve a instalação do Fedora 12, abordando seu download, instalação do sistema e instalação de programas.
+
+CentOS
+"CentOS é uma distribuição de classe Enterprise derivada de códigos fonte gratuitamente distribuídos pela Red Hat Enterprise Linux e mantida pelo CentOS Project.
+
+A numeração das versões é baseada na numeração do Red Hat Enterprise Linux. Por exemplo, o CentOS 4 é baseado no RHEL 4. A diferença básica entre um e outro é o fornecimento de suporte pago na aquisição de um RHEL. Funcionalmente, pode-se considerar os sistemas clones.
+
+CentOS proporciona um grande acesso aos softwares padrão da indústria, incluindo total compatibilidade com os pacotes de softwares preparados especificamente para os sistemas da RHEL. Isso lhe dá o mesmo nível de segurança e suporte, através de updates, que outras soluções Linux Enterprise, porém sem custo.
+
+Suporta tanto ambientes de servidores para aplicações de missão crítica quanto ambientes de estações de trabalho e ainda possui uma versão Live CD.
+
+CentOS possui numerosas vantagens, incluindo: uma comunidade ativa e crescente, um rápido desenvolvimento e teste de pacotes, uma extensa rede para downloads, desenvolvedores acessíveis, múltiplos canais de suporte incluindo suporte em português e suporte comercial através de parceiros."
+
+Trecho retirado do wiki do CentOS.
+
+Site oficial:
+
+    CentOS (inglês)
+    CentOS Brasil 
+
+
+Neste artigo você encontra os passos para instalar a distribuição CentOS 5.2. O objetivo é contribuir para que os usuários iniciantes tenham uma base para a instalar o sistema rapidamente. Pode ser uma referência para instalação de outras distribuições como Red Hat ou Fedora, que são muito parecidas com o CentOS.
+
+LinuxMint
+A proposta do Linux Mint é ser uma distribuição de desktop com visual elegante, amigável, confortável de usar e bem atualizada.
+
+A distribuição foi lançada inicialmente como uma variante do Ubuntu que contava com os codecs de mídia já na instalação. A evolução foi rápida e hoje é uma distribuição completa e bem resolvida, com ferramentas próprias de configuração, aplicativo de instalação de pacotes baseado na web, menus personalizados, entre outras características únicas e sempre com um visual bem clean e elegante.
+
+O fundador, líder e principal desenvolvedor da distribuição se chama Clement Lefebvre, ele iniciou usando Linux em 1996 (Slackware) e vive na Irlanda.
+
+Algumas razões do sucesso do Linux Mint listados na página do projeto são:
+
+    A velocidade com que a comunidade responde às demandas, uma solicitação postada no fórum do site pode estar já implementada no current em menos de uma semana;
+    Por ser derivada do Debian conta com toda a base sólida de pacotes e do gerenciador de pacotes do Debian;
+    É compatível com os repositórios do Ubuntu;
+    Tem um desktop preparado para o usuário comum sentir-se confortável;
+    Se esforça para que os recursos, tais como suporte multimídia, resolução de vídeo, placas e cartões Wifi e outros, funcionem bem. 
+
+
+À exceção do Mandrake, e depois do Kurumin, esta foi a primeira distro a fazer sucesso com os usuários pelos seguintes motivos: facilidade em instalar programas, instalação e configuração automática de dispositivos e afins.
+
+O Mint agregou essas facilidades e incorporou outras, sendo considerado um Ubuntu mais polido, com excelente seleção de softwares, belo desempenho e design.
+
+Você encontra tutoriais de instalação aqui no VOL em:
+
+    Linux Mint 7 Gloria
+    Apresentando o Linux Mint LXDE Edition 
+
+
+Para maiores informações, visitem:
+
+    Linux Mint
+    Linux Mint Manual
+    Linux Mint Software Portal
+    LinuxMint Community Editions 
+
+
+Aplicativos para GNU/Linux
+O GNU/Linux possui uma riqueza incomparável de aplicativos, oferecendo mais de uma solução à certas necessidades. A maior dificuldade está em encontrar um aplicativo que sirva às suas necessidades. Como há inúmeros aplicativos para as mesmas funções, eles apresentam certas características, estas que se adaptam ou não ao gosto do usuário, por isto temos tanta variedade de aplicativos disponíveis hoje em dia.
+
+O fato de quase 100% dos aplicativos serem Open-Source ajuda para que esta lista cada vez mais venha crescer. Dentre outras coisas, os aplicativos permitem ser alterados conforme as necessidades dos usuários, por termos acesso liberado ao código-fonte deles.
+
+No artigo Aplicativos Linux para o dia-a-dia, o autor visa informar sobre a grande gama de softwares disponíveis para a plataforma GNU/LINUX nas diversas áreas existentes. Ele demonstra alguns dos mais conhecidos e utilizados, são MAIS DE 140 APLICATIVOS, sendo recomendado a leitura para todos os níveis de usuários, desde iniciantes a profissionais.
+
+Outro artigo interessante que apresenta uma lista de aplicativos para uso cotidiano é o 30 motivos para usar o Linux, que expõe trinta razões em forma de ferramentas que lhe darão a certeza de que o Linux é o sistema operacional ideal para o seu uso. Leitura recomendada para todos os níveis de usuários desse sistema operacional.
+
+Aplicativos GNU/Linux para escritório
+OpenOffice.org
+Um dos mais famosas e completas suítes para escritório é o OpenOffice.org.
+
+"OpenOffice.org é uma suíte de aplicativos para escritório livres multiplataforma, sendo distribuída para Microsoft Windows, Unix, Solaris, Linux e Mac OS X. A suite usa o formato ODF (OpenDocument) e é compatível com o formato do Microsoft Office.
+
+O OpenOffice.org é baseado em uma antiga versão do StarOffice, o StarOffice 5.1, adquirido pela Sun Microsystems em Agosto de 1999. O código fonte da suite foi liberado dando início a um projeto de desenvolvimento de um software de código aberto em 13 de outubro de 2000, o OpenOffice.org. O principal objetivo era fornecer uma alternativa de baixo custo, de alta qualidade e de código aberto.
+
+O OpenOffice.org é compatível com os formatos de arquivo do Microsoft Office. Por ser um software gratuito e de código aberto, será instalado por padrão no projeto PC Conectado, no qual microcomputadores a preços populares serão vendidos para pessoas de baixa renda no Brasil, com subsídios oferecidos pelo Governo. Também em Portugal o computador Portátil Magalhães é distribuído a todos os alunos das escolas do primeiro ciclo com o OpenOffice.org.
+
+O projeto e o software são referenciados geralmente como "OpenOffice" mas, devido a um disputa de marca registada, a Sun foi obrigada a mudar o nome do software, que passou a se chamar "OpenOffice.org". No Brasil, até mesmo o nome OpenOffice.org causou problemas por semelhança com o nome "Open Office", já anteriormente registrado pela BWS Informática. Por isso, o OpenOffice.org não é distribuído no português do Brasil, sendo substituído pelo pacote BrOffice."
+
+Fonte: http://pt.wikipedia.org/wiki/OpenOffice.org
+
+O Viva o Linux, através do membro Antonio Carlos Vasques da Silva, publicou uma série de artigos sobre o uso deste aplicativo, que pode ser acessada a partir dos links abaixo:
+
+    Instalando o OpenOffice - A partir deste artigo vamos publicar uma série explicando como instalar, configurar e utilizar o openoffice (00) como sua suíte office padrão, tanto para Linux como para qualquer OS proprietário. Ao término, qualquer usuário iniciante terá condições de realizar as operações básicas de edição de texto, planilhas e apresentação.
+    Configurando o OpenOffice - Neste segundo tutorial vamos ensinar como configurar o OpenOffice (OO) no Linux para podermos utilizar os editores integrados nesta suíte SOHO. O texto está rico em ilustrações, o que facilitará muito sua compreensão.
+    Configurando o OpenOffice para edição de texto - swriter/oowriter - Neste terceiro tutorial vamos aprender como configurar o editor de texto (ET) oowriter/swriter para atender às nossas necessidades. Veremos truques para configurar barra de função, barra de formatação, barra de ferramentas, barra de menus dentre outros recursos.
+    Formatando texto no Open Office - Neste tutorial vamos aprender a formatar o texto no OpenOffice (00) usando o swriter ou oowriter, segundo a procedência de seu pacote office. Como experiência própria, recomendo que digite tudo o que desejar e somente depois parta para a formatação propriamente dita.
+    Formatando fontes no openoffice - Neste tutorial vamos abordar a formatação das fontes no Open Office (OO). Ele complementa o anterior, que aborda a formatação do texto. Neste aprenderemos a usar a barra de formatação, menus do botão direito do mouse, tamanho, estilo e cores das fontes.
+    Formatação especial no Open Office - Neste tutorial vamos abordar formatação "especial" no OO como: caracteres especiais; cabeçalho, rodapé e notas de rodapé; data, hora; numeração de página e moldura flutuante.
+    Mais formatação especial no OpenOffice - Neste tutorial aprenderemos a utilizar um recurso muito útil do OpenOffice, que é a pré-formatação de texto (estilista), assistentes e o corretor ortográfico.
+    Usando tabelas no editor de textos do OpenOffice - Neste tutorial sobre o OpenOffice vamos aprender mais alguns recursos especiais, para que o uso do editor de texto seja o mais completo possível, manipulando tabelas para complementar um texto qualquer.
+    Usando tabulações no OpenOffice.org - O presente tutorial tem por objetivo explicar como se usa tabulação no OpenOffice.org Writer.
+    Outros recursos no OpenOffice: colunas, fundo e bordas - Neste tutorial da série sobre o oowriter, veremos como criar colunas, configurar o fundo do texto e as bordas do mesmo.
+    Conhecendo a planilha do OpenOffice - Qualquer local de trabalho, por mais simples que seja, não prescinde dos recursos de uma planilha. Embora muito conhecida, não é tão utilizada quanto um bom editor de texto, talvez por fazer-se uso de funções. Com este tutorial vamos conhecer sua estrutura e nos familiarizar com seu manuseio.
+    Formatação de células na planilha do OpenOffice - Neste tutorial sobre a scalc/oocalc - planilha do OpenOffice - vamos mostrar como fazer as formatações básicas em células.
+    Formatação de linhas e colunas da planilha do OpenOffice - Neste tutorial sobre o scalc (oocalc), vamos explicar com formatar linhas e colunas.
+    Selecionando dados numa tabela para confecção de gráficos no oocalc - Este artigo mostra como selecionar dados numa tabela para poder criar gráficos personalizados. É um recursos muito útil quando se tem tabelas grandes que podem gerar gráficos complexos, sendo necessário selecionar as informações sem ter o trabalho de construir novos dados. 
+
+
+Abiword
+Se você prefere softwares mais leves ou não usa os recursos avançados de formatação que o OpenOffice.org oferece, talvez a melhor solução seja o uso do Abiword, um editor de textos tão bom quanto e mais leve que o acima mencionado.
+
+"AbiWord é um processador de texto de código-fonte aberto portanto, um software livre licenciado segundo a GPL. Roda em plataformas Linux, Mac OS, Microsoft Windows, ReactOS, SkyOS e outros. AbiWord foi criado inicialmente pela SourceGear Corporation com o componente AbiSuite. SourceGear se graduou a interesses financeiro e deixou o projeto do AbiWord para uma equipe de voluntários. Agora o software AbiWord é parte do GNOME Office, uma coleção de aplicativos de integração.
+
+A interface do AbiWord lembra a interface do Word pré-2007.
+
+O fato é que muitos usuários ainda se sentem mais confortáveis nessa interface do que na nova "ribbon" da ferramenta Microsoft.
+
+O AbiWord oferece todos os recursos necessários para quem tem necessidades simples de edição de textos."
+
+Fonte: http://pt.wikipedia.org/wiki/AbiWord
+
+Leia o artigo Desvendando o Abiword, onde o autor apresenta o Abiword, o editor de texto padrão do Gnome, mas que você pode usar sem ter de abrir mão de sua interface preferida. Ele é muito mais leve que o OpenOffice e pode ser uma boa alternativa para quem não tem um PC tão poderoso que aguente o primeiro.
+
+Gnumeric
+Gnumeric é um software de planilha open source que faz parte do desktop Gnome e possui instaladores disponíveis inclusive para Windows. Ele foi criado com a intenção de ser uma alternativa ao software proprietário Microsoft Excel. Gnumeric foi criado e desenvolvido por Miguel de Icaza, mas desde que ele foi transferido para outros projetos, o mantenedor atual se tornou Jody Goldberg.
+
+Gnumeric possui a capacidade de importar e exportar dados em diversos formatos, incuindo CSV, Microsoft Excel, HTML, LaTeX, Lotus 1-2-3, OpenDocument e Quattro Pro. Seu formato nativo é o Gnumeric file format (.gnm ou .gnumeric), um arquivo XML comprimido com bzip. Ele possui todas as funções de planilha do Excel e muitas outras funções próprias.
+
+Maiores informações sobre o Gnumeric podem ser obtidas em seu site oficial: http://www.gnome.org/gnumeric
+
+Comandos do terminal
+A linha de comando é o método mais usado por administradores de sistemas Linux, pois é o que oferece o maior número de possibilidades, além de ser o método mais rápido de fazer as coisas. Nesse artigo você terá uma lista detalhada dos principais comandos de terminal, divididos em categorias, com exemplos práticos de aplicação, incluindo associações com outros aplicativos.
+
+O membro Davidson Paulo publicou uma série de artigos que descreve muito bem os fundamentos do sistema:
+
+    Fundamentos do sistema Linux - arquivos e diretórios - Nos sistemas Unix/Linux, tudo o que pode ser manipulado pelo sistema operacional é representado sob a forma de arquivo, incluindo aí diretórios, dispositivos e processos. Esse artigo aborda os principais conceitos sobre arquivos e diretórios.
+    Fundamentos do sistema Linux - usuários e grupos - O Linux foi desenvolvido desde o começo para trabalhar em rede. Por isso, ele possui suporte a usuários e grupos, que garantem uma organização e segurança ao sistema. Neste artigo veremos os conceitos de usuários e grupos, bem como os métodos para manipulá-los.
+    Fundamentos do sistema Linux - Permissões - Sistemas operacionais multi-usuário têm de zelar pela segurança e privacidade dos dados individuais de cada usuário, bem como prezar pela integridade do sistema. Para isso existem as chamadas permissões de acesso, que atuam em dois aspectos fundamentais. O primeiro é a privacidade e o segundo, a segurança.
+    Fundamentos do sistema Linux - hardware - A forma como o sistema operacional trabalha com o hardware é fator decisivo no desempenho e estabilidade do sistema. Um processador pode ser muito rápido por possuir diversos recursos, mas se o sistema operacional não tiver suporte a esses recursos, não será possível extrair o máximo de desempenho do processador. Nesse artigo veremos como o Linux interage com o hardware do computador.
+    Fundamentos do sistema Linux: discos e partições - Neste artigo veremos como o GNU/Linux trabalha com discos, além de ver conceito de partições, sistemas de arquivos, bem como os principais programas para trabalhar com discos e partições.
+    Fundamentos do sistema Linux - Gerenciadores de inicialização - Gerenciadores de inicialização (boot managers, em inglês) são programas responsáveis por gerenciar a inicialização de um ou vários sistemas operacionais. Nesse artigo veremos os dois principais gerenciadores de inicialização, o LiLo e o GRUB.
+    Fundamentos do sistema Linux - comandos do Linux - Uma lista detalhada dos principais comandos do GNU/Linux, divididos em categorias, com exemplos práticos de aplicação, incluindo associações com outros aplicativos.
+    Fundamentos do sistema Linux - direcionadores - Direcionadores de fluxo fazem o que o nome sugere: direcionam o fluxo da saída dos programas, enviando-as para locais diferentes da saída padrão. Esses locais podem ser arquivos, dispositivos, processos e outros programas. Nesse artigo veremos como utilizar os direcionadores do Linux para facilitar a vida do administrador de sistemas. 
+
+
+Jogos
+Quem gosta de jogos não pode deixar de ver a lista dos principais jogos disponíveis neste artigo, que te dá a oportunidade de conhecer jogos de tiro, estratégia, carros, simuladores de vôo, RPG, emuladores e muito mais. O artigo fez tanto sucesso que ganhou uma continuação com outra dezenas de jogos compatíveis com o sistema operacional.
+
+Informações adicionais
+
+    Palavras, expressões e celebridades do mundo Linux - Não faça mais aquela cara de "meu Deus, que é isso!?" enquanto conversa com nerds. Conheça quem são as celebridades do mundo do software livre e Linux e de quebra confira meu "pequeno dicionário para sobrevivência nerd" e a lista dos smiles mais usados na internet.
+    Linux: Uma ótima opção para sua empresa - Neste artigo o autor mostra as principais vantagens em utilizar o Linux em sua empresa, sua relação custo x benefício e também cito alguns casos de sucesso do pinguim no Brasil.
+    Usar, usando - Este artigo é para você que quer usar o pinguim, mas tem medo de doer. Sério, o Linux desktop está aí e veio pra ficar. Acompanhe a experiência do autor e tome coragem para mudar. 
